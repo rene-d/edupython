@@ -1,0 +1,21 @@
+from lycee import *
+#On initialise l'erreur en calcuant la différence entre 22/7 et pi
+err=22.0/7-pi
+print "erreur historique",err
+# On parcours tous les dénominateurs possibles
+for d in range(1,100):
+    #Pour les numérateurs, on sait que le quotient doit être entre 3 et 4, ce qui limite le nombre de cas
+    for n in range (3*d,4*d):
+        #On calcul la valeur du quotient
+        f=float(n)/d
+        #On calcule l'erreur commise en prenant garde au signe
+        if f<pi:
+            e=pi-f
+        else:
+            e=f-pi
+        #Si l'erreur est plus petite que l'erreur actuelle...
+        if e<err :
+            #On affiche la fraction
+            print "J'ai trouvé mieux :",n,"/",d," L'erreur est :",err
+            #L'erreur minimale est actualisée
+            err=e

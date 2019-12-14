@@ -1,0 +1,12 @@
+from lycee import *
+n=nombre_demande("Nombre de décimales")
+a=nombre_demande("Dividende")
+b=nombre_demande("Diviseur")
+rep=str(quotient(a,b))+","
+r=reste(a,b)
+for i in range(n):
+    r=r*10
+    q=quotient(r,b)
+    rep=rep+str(q)
+    r=reste(r,b)
+print rep
