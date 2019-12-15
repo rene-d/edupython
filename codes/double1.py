@@ -1,7 +1,7 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=double1
+# http://amienspython.tuxfamily.org/sources/codes/double1.py
 
-# Créé par IANTE, le 28/12/2010?
+# Créé par IANTE, le 28/12/2010
 from __future__ import division
 from lycee import *
 mot="glouglou dit le dindon"
@@ -13,4 +13,4 @@ while i <len(mot):
     else :
         double=double+mot[i]
     i=i+1
-print (double)
+print double

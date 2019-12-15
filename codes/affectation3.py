@@ -1,11 +1,12 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=affectation3
+# http://amienspython.tuxfamily.org/sources/codes/affectation3.py
 
-# Créé par AgneS, le 17/06/2013 en Python 3.2
+from lycee import *
 a,b=3,2
-a=a+b
-   # affectations successives
-              # a vaut a+b=3+2
-              # donc a vaut 5
-b=a-b         # b vaut a-b=5-2=3
-print (a,b)   # afficher a et b
+# affectations successives
+# a vaut a+b=3+2
+a=a+b # donc a vaut 5
+# b vaut a-b=5-2=3
+b=a-b
+# afficher a et b
+print a,b

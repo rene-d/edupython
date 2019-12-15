@@ -1,10 +1,11 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=copieliste1
+# http://amienspython.tuxfamily.org/sources/codes/copieliste1.py
 
 # Créé par IANTE, le 17/07/2011
+from __future__ import division
 from lycee import *
 A=["Bleu","Blanc","Rouge"]
 B=A
 B[1]="Vert"
-print ("A=",A)
-print ("B=",B)
+print "A=",A
+print "B=",B

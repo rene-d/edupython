@@ -1,5 +1,5 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=Sicherman_test
+# http://amienspython.tuxfamily.org/sources/codes/Sicherman_test.py
 
 # Créé par IANTE, le 31/07/2011
 from __future__ import division
@@ -18,7 +18,7 @@ while faces[0]<13 :
     De2=faces[6:]
     X,N=comptage(De1,De2)
     if X==[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] and N==[1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]:
-        print (De1,De2)
+        print De1,De2
     faces[11]=faces[11]+1
     for i in range(11,6,-1) :
         if faces[i]>faces[i-1]:

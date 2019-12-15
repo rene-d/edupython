@@ -1,5 +1,5 @@
 # Marche aléatoire
-# https://edupython.tuxfamily.org/sources/view.php?code=marche
+# http://amienspython.tuxfamily.org/sources/codes/marche.py
 
 from lycee import *
 p,x,y=0,[],[]

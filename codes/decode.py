@@ -1,7 +1,9 @@
 # décodage affine
-# https://edupython.tuxfamily.org/sources/view.php?code=decode
+# http://amienspython.tuxfamily.org/sources/codes/decode.py
 
-#9uéé%!t!upét|ïQé%!të"
+from __future__ import division
+from lycee import *
+texte="D%!t|#9uéé%!t!upét|ïQé%!të"
 message=""
 for i in range(len(texte)):
     lettre=texte[i]
@@ -9,4 +11,4 @@ for i in range(len(texte)):
     code2=reste(41*code+52,102)
     lettre2=decodeAAP(code2)
     message=message+lettre2
-print (message)
+print message

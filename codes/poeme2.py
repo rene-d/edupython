@@ -1,7 +1,8 @@
 # Poème version 2
-# https://edupython.tuxfamily.org/sources/view.php?code=poeme2
+# http://amienspython.tuxfamily.org/sources/codes/poeme2.py
 
 # Créé par IANTE, le 12/02/2011
+from __future__ import division
 from lycee import *
 poeme=fich2chaine()
 NbDecimales,pos=0,0
@@ -16,4 +17,4 @@ while pos<len(poeme):
     if NbDecimales==1 : reponse=reponse+","
     while pos<len(poeme) and poeme[pos]in ('.',',','!',"'","\n",';','?',':',' '):
         pos=pos+1
-print (reponse)
+print reponse

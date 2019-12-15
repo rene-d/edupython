@@ -1,7 +1,8 @@
 # Tester un codage
-# https://edupython.tuxfamily.org/sources/view.php?code=testcodage
+# http://amienspython.tuxfamily.org/sources/codes/testcodage.py
 
 # Créé par IANTE, le 29/12/2010
+from __future__ import division
 from lycee import *
 message=""
 i=0
@@ -16,6 +17,6 @@ for i in range(len(message)):
     if message.count(message[i])>1 :
         doubles=doubles+1
 if doubles==0 :
-    print ("C'est un codage")
+    print "C'est un codage"
 else :
-    print ("Ce n'est pas un codage")
+    print "Ce n'est pas un codage"

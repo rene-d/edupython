@@ -1,7 +1,8 @@
 # produit de 2 polynômes
-# https://edupython.tuxfamily.org/sources/view.php?code=polynomes
+# http://amienspython.tuxfamily.org/sources/codes/polynomes.py
 
 # Créé par IANTE, le 21/06/2011
+from __future__ import division
 from lycee import *
 A=liste_demande('entrez les coefficients de A(x) par ordre des puissances croissantes')
 B=liste_demande('entrez les coefficients de B(x) par ordre des puissances croissantes')
@@ -14,4 +15,4 @@ for degre in range(DegA+DegB+1) :
             coef=coef+A[k]*B[degre-k]
         k=k+1
     C.append(coef)
-print ('('+affiche_poly(A)+')('+affiche_poly(B)+')='+affiche_poly(C))
+print'('+affiche_poly(A)+')('+affiche_poly(B)+')='+affiche_poly(C)

@@ -1,7 +1,7 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=tortue
+# http://amienspython.tuxfamily.org/sources/codes/tortue.py
 
-# Petite démonstration du mode turtle
+ï»¿# Petite dÃ©monstration du mode turtle
 # on peut ainsi travailler sur les distances et les angles
 
 from xturtle import*

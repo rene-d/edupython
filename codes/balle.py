@@ -1,5 +1,5 @@
 # Chute d'une balle
-# https://edupython.tuxfamily.org/sources/view.php?code=balle
+# http://amienspython.tuxfamily.org/sources/codes/balle.py
 
 from lycee import *
 t = np.arange(0, 10, 0.1)

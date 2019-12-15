@@ -1,6 +1,7 @@
 # Pile ou facesssss
-# https://edupython.tuxfamily.org/sources/view.php?code=pileface
+# http://amienspython.tuxfamily.org/sources/codes/pileface.py
 
+from __future__ import division
 from lycee import *
 p,f,e=0,0,0
 n,ecart,ecartm,freqP,freqF=[],[],[],[],[]
@@ -17,14 +18,14 @@ for i in range(1,1000):
     freqF.append(f/i)
 repere.subplot(221)
 repere.plot(n,ecart)
-repere.title("écarts en nombre")
+repere.title(u"écarts en nombre")
 repere.subplot(222)
 repere.plot(n,ecartm)
-repere.title("écarts en fréquence")
+repere.title(u"écarts en fréquence")
 repere.subplot(223)
 repere.plot(n,freqP)
-repere.title("% de piles obtenus")
+repere.title(u"% de piles obtenus")
 repere.subplot(224)
 repere.plot(n,freqF)
-repere.title("% de faces obtenus")
-repere.show()
+repere.title(u"% de faces obtenus")
+repere.show();

@@ -1,7 +1,8 @@
 # Codes de carte bleue
-# https://edupython.tuxfamily.org/sources/view.php?code=carte
+# http://amienspython.tuxfamily.org/sources/codes/carte.py
 
 # Créé par IANTE, le 27/08/2011
+from __future__ import division
 from lycee import *
 ListeMeme=[]
 for i in range(10000):
@@ -12,6 +13,5 @@ for i in range(10000):
         if touche in Carte1 and touche in Carte2 :
             meme=meme+1
     ListeMeme.append(meme)
-print ("En moyenne, on a",moyenne(ListeMeme),"touches en commun")
+print "En moyenne, on a",moyenne(ListeMeme),"touches en commun"
 baton(ListeMeme)
-repere.show()

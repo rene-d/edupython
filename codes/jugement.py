@@ -1,7 +1,8 @@
 # Appel de jugement
-# https://edupython.tuxfamily.org/sources/view.php?code=jugement
+# http://amienspython.tuxfamily.org/sources/codes/jugement.py
 
 # Créé par IANTE, le 27/08/2011
+from __future__ import division
 from lycee import *
 Nb=[]
 for i in range(1000):
@@ -11,7 +12,6 @@ for i in range(1000):
             Mexicain=Mexicain+1
     Nb.append(Mexicain)
 baton(Nb)
-repere.show()
 dec1,dec9=decile(Nb)
-print ("80% des valeurs se situent entre",end="")
-print (dec1,'et',dec9)
+print "80% des valeurs se situent entre",
+print dec1,'et',dec9

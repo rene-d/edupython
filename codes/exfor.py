@@ -1,20 +1,20 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=exfor
+# http://amienspython.tuxfamily.org/sources/codes/exfor.py
 
-# Créé par AgneS, le 17/06/2013 en Python 3.2
 from lycee import *
-print ("Exemple 1 : ", end="")
+print "Exemple 1 : ",
 for voyelle in ['a','e','i','o','u','y'] :
-    print (voyelle,end="")
-print ()
-print ("Exemple 2 :", end="")
+    print voyelle,
+print
+print "Exemple 2 :",
 for n in range(10):
-    print (n, end="")
-print ()
-print ("Exemple 3 : ", end="")
+    print n,
+print
+print "Exemple 3 : ",
 for n in range(2,7):
-    print (n, " ", end="")
-print ()
-print ("Exemple 4 : ", end="")
+    print n,
+
+print
+print "Exemple 4 : ",
 for pair in range(100,110,2):
-    print (pair," ", end="")
+    print pair,

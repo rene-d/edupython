@@ -1,5 +1,5 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=codage
+# http://amienspython.tuxfamily.org/sources/codes/codage.py
 
 # Créé par IANTE, le 29/12/2010
 from __future__ import division

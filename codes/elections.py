@@ -1,7 +1,8 @@
 # Elections
-# https://edupython.tuxfamily.org/sources/view.php?code=elections
+# http://amienspython.tuxfamily.org/sources/codes/elections.py
 
 # Créé par IANTE, le 27/08/2011
+from __future__ import division
 from lycee import *
 p,a,b=0,-1,-1
 for k in range(101):
@@ -10,6 +11,4 @@ for k in range(101):
         a=k
     if b==-1 and p>=0.975 :
         b=k
-print ("On peut considérer l'affirmation de monsieur Z exacte ", end="")
-print("au seuil de 5%, si le nombre de personne ayant répondu ", end="")
-print("positivement est dans l'intervalle [",a,";",b,"].")
+print "On peut considérer l'affirmation de monsieur Z exacte au seuil de 5%, si le nombre de personne ayant répondu positivement est dans l'intervalle [",a,";",b,"]."

@@ -1,5 +1,8 @@
 # Approximation historique du nombre pi
-# https://edupython.tuxfamily.org/sources/view.php?code=approx
+# http://amienspython.tuxfamily.org/sources/codes/approx.py
+
+from __future__ import division
+from lycee import *
 
 # On cherche une fraction n/d qui approxime pi mieux que 22/7
 # Le numérateur n et le dénominateur d
@@ -8,7 +11,7 @@
 # doit être inférieure à l'erreur historique err calculée ci-dessous
 
 err = 22 / 7 - pi
-print ("erreur historique :", err)
+print "erreur historique :", err
 for d in range(1,100) :
     # Début de la boucle for
     # La variable d prend les valeurs entières de 1(inclus) à 99
@@ -26,7 +29,7 @@ for d in range(1,100) :
         # qui remplace la précédente valeur de err
         if e < err :
             err = e
-            # On affiche alors sur la même ligne (car end="")
+            # On affiche alors sur la même ligne (car virgule en fin de ligne)
             # la fraction et la nouvelle marge d'erreur à réduire
-            print ("J'ai trouvé mieux :", n, "/", d, ". ",end="")
-            print ("L'erreur est :", err)
+            print "J'ai trouvé mieux :", n, "/", d, ". ",
+            print "L'erreur est :", err

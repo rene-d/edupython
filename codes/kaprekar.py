@@ -1,7 +1,8 @@
 # Algorithme de Kaprekar
-# https://edupython.tuxfamily.org/sources/view.php?code=kaprekar
+# http://amienspython.tuxfamily.org/sources/codes/kaprekar.py
 
 # Créé par IANTE, le 19/06/2011
+from __future__ import division
 from lycee import *
 L=range(10000)
 for passage in range(1,20):
@@ -17,5 +18,5 @@ for passage in range(1,20):
         n3=n2-n1
         if not n3 in L1 :
             L1.append(n3)
-    print ("Passage",passage,":",len(L1),"possibilités",L1)
+    print "Passage",passage,":",len(L1),"possibilités",L1
     L=L1

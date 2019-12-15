@@ -1,7 +1,8 @@
 # Palindrome1
-# https://edupython.tuxfamily.org/sources/view.php?code=palin1
+# http://amienspython.tuxfamily.org/sources/codes/palin1.py
 
 # Créé par IANTE, le 28/12/2010
+from __future__ import division
 from lycee import *
 phrase="kayak"
 envers=""
@@ -10,4 +11,4 @@ while p>=0:
     envers=envers+phrase[p]
     p=p-1
 if phrase==envers :
-    print (phrase,"est un palindrome.")
+    print phrase,"est un palindrome."

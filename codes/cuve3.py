@@ -1,5 +1,5 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=cuve3
+# http://amienspython.tuxfamily.org/sources/codes/cuve3.py
 
 # Créé par IANTE, le 17/07/2011
 from __future__ import division

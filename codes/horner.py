@@ -1,7 +1,8 @@
 # Méthode de Hörner
-# https://edupython.tuxfamily.org/sources/view.php?code=horner
+# http://amienspython.tuxfamily.org/sources/codes/horner.py
 
 # Créé par IANTE, le 12/07/2011
+from __future__ import division
 from lycee import *
 P=liste_demande('entrez les coefficients de P(x) par ordre des puissances croissantes')
 r=demande('Entrez une racine évidente')
@@ -10,4 +11,4 @@ v=0
 for d in range(len(P)-2,-1,-1):
     v=P[d+1]+r*v
     Q[d]=v
-print (affiche_poly(P)+'=('+affiche_poly([-r,1])+')('+affiche_poly(Q)+')')
+print affiche_poly(P)+'=('+affiche_poly([-r,1])+')('+affiche_poly(Q)+')';

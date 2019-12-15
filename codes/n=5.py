@@ -1,5 +1,5 @@
 # ???
-# https://edupython.tuxfamily.org/sources/view.php?code=n=5
+# http://amienspython.tuxfamily.org/sources/codes/n=5.py
 
 L=[]
 for max in range(1,5):

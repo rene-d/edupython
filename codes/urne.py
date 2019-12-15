@@ -1,7 +1,8 @@
 # Une urne de 50 boules
-# https://edupython.tuxfamily.org/sources/view.php?code=urne
+# http://amienspython.tuxfamily.org/sources/codes/urne.py
 
 # Créé par IANTE, le 30/08/2011
+from __future__ import division
 from lycee import *
 Gain=[]
 for i in range(10000) :
@@ -15,5 +16,5 @@ for i in range(10000) :
         Gain.append(4)
     else :
         Gain.append(-1)
-print ("Gain moyen : ",moyenne(Gain))
-print ("Ecart type : ",ecartype(Gain))
+print "Gain moyen : ",moyenne(Gain)
+print "Ecart type : ",ecartype(Gain)

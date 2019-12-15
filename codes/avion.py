@@ -1,5 +1,8 @@
 # surréservation
-# https://edupython.tuxfamily.org/sources/view.php?code=avion
+# http://amienspython.tuxfamily.org/sources/codes/avion.py
+
+from __future__ import division
+from lycee import *
 
 # Dans un aéroport, un avion peut contenir 100 personnes et la compagnie vend
 # 107 réservations.
@@ -25,4 +28,4 @@ for simul in range(10000):
         surbook=surbook+1
     # Fin de la boucle For
 # Affichage du pourcentage de vols surbookés.
-print ("Dans",surbook/100,"% des vols certaines personnes n'ont pu embarquer")
+print "Dans",surbook/100,"% des vols certaines personnes n'ont pu embarquer"

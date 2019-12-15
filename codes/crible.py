@@ -1,8 +1,11 @@
 # Crible d'Ératosthène
-# https://edupython.tuxfamily.org/sources/view.php?code=crible
+# http://amienspython.tuxfamily.org/sources/codes/crible.py
 
-# Initialise la variable i
-liste = list(range (2, N))       # Crée la liste des nombres entiers de 2 à N
+from __future__ import division
+from lycee import *
+N = demande ("Obtenir les nombres premiers inférieurs à ?")
+indice = 0                 # Initialise la variable i
+liste = range (2, N)       # Crée la liste des nombres entiers de 2 à N
 
 while indice < len (liste) :
                            # On utilise la longueur de la liste pour compter
@@ -18,4 +21,4 @@ while indice < len (liste) :
             liste.remove(multiple)
         n = n + 1
     indice = indice + 1    # passe au nombre suivant dans la liste
-print (liste)
+print liste

@@ -1,6 +1,7 @@
 # Doubler les voyelles
-# https://edupython.tuxfamily.org/sources/view.php?code=double
+# http://amienspython.tuxfamily.org/sources/codes/double.py
 
+from __future__ import division
 from lycee import *
 mot="glouglou dit le dindon"
 double=""
@@ -11,4 +12,4 @@ while i <len(mot):
     else :
         double=double+mot[i]
     i=i+1
-print (double)
+print double

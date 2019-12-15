@@ -1,6 +1,7 @@
 # 100 boules
-# https://edupython.tuxfamily.org/sources/view.php?code=boules
+# http://amienspython.tuxfamily.org/sources/codes/boules.py
 
+from lycee import *
 # Un jeu propose deux règles, on cherche laquelle est la plus avantageuse.
 # Une urne contient 100 boules numérotées de 1 à 100.
 # On tire deux boules successivement avec remise.
@@ -22,5 +23,5 @@ for i in range (100000) :
     if score1 == 36 : regle1 = regle1 + 1
     if score2 == 36 : regle2 = regle2 + 1
 
-print ("Avec la règle 1, on a gagné", regle1, "fois sur 100 000.")
-print ("Avec la règle 2, on a gagné", regle2, "fois sur 100 000.")
+print "Avec la règle 1, on a gagné", regle1, "fois sur 100 000."
+print "Avec la règle 2, on a gagné", regle2, "fois sur 100 000."

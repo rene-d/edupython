@@ -1,5 +1,5 @@
 # Ligne de niveau
-# https://edupython.tuxfamily.org/sources/view.php?code=ligne
+# http://amienspython.tuxfamily.org/sources/codes/ligne.py
 
 from lycee import *
 for i in range(10000):

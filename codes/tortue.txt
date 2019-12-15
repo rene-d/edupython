@@ -1,6 +1,6 @@
-ï»¿Memo2
+Memo2
 # Petite dÃ©monstration du mode turtle
-# on peut ainsi travailler sur les distances et
+# on peut ainsi travailler sur les distances et 
 les angles
 
 from xturtle import*

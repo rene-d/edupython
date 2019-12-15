@@ -1,7 +1,8 @@
 # Avoir une full d'enfants
-# https://edupython.tuxfamily.org/sources/view.php?code=full
+# http://amienspython.tuxfamily.org/sources/codes/full.py
 
 # Créé par Vinni, le 10/03/2012
+from __future__ import division
 from lycee import *
 freq=[]
 n=demande("Nombre de familles dans l'échantillon ?")
@@ -14,4 +15,3 @@ for echan in range(1000) :
             nbFull=nbFull+1
     freq.append(nbFull/n)
 barre(freq)
-repere.show()

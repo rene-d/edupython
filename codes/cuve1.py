@@ -1,5 +1,8 @@
 # La cuve sans fonction
-# https://edupython.tuxfamily.org/sources/view.php?code=cuve1
+# http://amienspython.tuxfamily.org/sources/codes/cuve1.py
+
+from __future__ import division
+from lycee import *
 
 # Une cuve est constituée d'un cône de hauteur 20cm et de rayon 10cm,
 # surmonté d'un cylindre de rayon 10cm et de hauteur 20cm.
@@ -15,4 +18,4 @@ else :
     Vcone = 1 / 3 * pi * 10 * 10 * 20       # Vcone est le volume du cône d'eau
     Vcyl = pi * 10 * 10 * (h - 20)          # Vcyl est le volume du cylindre de hauteur h-20
     V = Vcyl + Vcone                        # On calcule alors le volume total
-print ("Le volume est", V)
+print "Le volume est", V

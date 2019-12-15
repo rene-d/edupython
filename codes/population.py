@@ -1,7 +1,8 @@
 # Comparaison de deux départements
-# https://edupython.tuxfamily.org/sources/view.php?code=population
+# http://amienspython.tuxfamily.org/sources/codes/population.py
 
 # Créé par IANTE, le 04/09/2011
+from __future__ import division
 from lycee import *
 etendue=1000
 nbclasse=quotient(140000,etendue)
@@ -23,4 +24,3 @@ polygoneFCC(Pop,Pop93,'r')
 repere.title('Population dans le 80 et le 93')
 repere.ylabel('Fréquences')
 repere.xlabel("Nombre d'habitants")
-repere.show()

@@ -1,7 +1,8 @@
 # Dés de Sicherman
-# https://edupython.tuxfamily.org/sources/view.php?code=Sicherman
+# http://amienspython.tuxfamily.org/sources/codes/Sicherman.py
 
 # Créé par IANTE, le 29/07/2011
+from __future__ import division
 from lycee import *
 De1=[1,2,2,3,3,4]
 De2=[1,3,4,5,6,8]
